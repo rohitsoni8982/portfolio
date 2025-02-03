@@ -37,7 +37,6 @@ const Header = ({ toggleMenu, menuOpen }) => {
             <li><a href="/" className="text-base hover:text-[#34b7a7] hover:text-xl hover:font-bold hover:underline  transition-all duration-300">Home</a></li>
             <li><a href="/About" className="text-base hover:text-[#34b7a7] hover:text-xl hover:font-bold hover:underline  transition-all duration-300">About</a></li>
             <li><a href="/Resume" className="text-base hover:text-[#34b7a7] hover:text-xl hover:font-bold hover:underline  transition-all duration-300">Resume</a></li>
-            <li><a href="/portfolio" className="text-base hover:text-[#34b7a7] hover:text-xl hover:font-bold hover:underline  transition-all duration-300">Portfolio</a></li>
             <li><a href="/Contact" className="text-base hover:text-[#34b7a7] hover:text-xl hover:font-bold hover:underline  transition-all duration-300">Contact</a></li>
           </ul>
         </nav>
@@ -63,7 +62,6 @@ const Header = ({ toggleMenu, menuOpen }) => {
           <a href="/" className="py-2">Home</a>
           <a href="/About" className="py-2">About</a>
           <a href="/Resume" className="py-2">Resume</a>
-          <a href="/portfolio" className="py-2">Portfolio</a>
           <a href="/Contact" className="py-2">Contact</a>
         </div>
       )}

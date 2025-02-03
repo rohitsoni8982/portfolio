@@ -6,7 +6,6 @@ import HomePage from "./app/main/HomePage";
 import AboutPage from './app/main/AboutPage'
 import Resume from './app/main/Resume'
 import Contact from './app/main/Contact'
-import Portfolio from './app/main/Portfolio'
 
 function App() {
   return (
@@ -23,9 +22,6 @@ function App() {
         <Route 
          path = '/Resume'
          element = {<Resume/>}/>
-        <Route 
-         path = '/portfolio'
-         element = {<Portfolio/>}/>
         <Route 
          path = '/Contact'
          element = {<Contact/>}/>
