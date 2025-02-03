@@ -29,7 +29,6 @@ const Header = ({ toggleMenu, menuOpen }) => {
       <div className="container-fluid flex justify-between items-center px-4 py-1">
         <a href="/" className="flex items-center">
          <img src={rohitimg} alt="" className="h-14 object-cover rounded-full " />
-         <label className='font-bold text-[12px] hover:text-[#34b7a7] hover:text-xl cursor-pointer px-2'>ROHIT SONI</label><br/>
         </a>
 
         <nav className="navmenu hidden md:flex items-center space-x-4">

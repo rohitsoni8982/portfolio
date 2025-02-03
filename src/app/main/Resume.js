@@ -3,12 +3,22 @@ import TextField from '@mui/material/TextField';
 import { useState } from "react";
 import NavePage from "../pages/nave";
 import FooterPage from "../pages/footer";
+// import resume from "../../file/rohitresume.pdf"
+import resume from "../../file/Rohit.pdf"
 
 const ResumePage = () => {
 
     return (
         <div className="">
             <NavePage />
+            {/* Resume Downloader */}
+            <div className="p-4">
+                <label className="font-bold">Resume :- </label>
+                <a href={resume} download className="btn-get-started bg-[#34b7a7] text-white p-2 rounded">
+                    Download PDF
+                </a>
+            </div>
+
             <div className="container mx-auto text-center mb-8" >
                 <h2 className="text-3xl font-bold inline-block underline decoration-[#34b7a7] decoration-4">Resume</h2>
             </div>
@@ -62,7 +72,8 @@ const ResumePage = () => {
                         <div className="lg:ml-[25%] md:ml-[25%]">
                             <h3 className="text-3xl font-bold inline-block underline decoration-[#34b7a7] decoration-4 ">Professional Experience</h3>
                         </div>
-                        <div className="">
+                        {/* Python */}
+                        <div className="pl-6 pt-4">
                             <ul style={{ listStyleType: "circle" }}>
                                 <li>
                                     <h4 className="font-bold underline decoration-[#34b7a7] decoration-3">Python Development</h4>
@@ -102,7 +113,7 @@ const ResumePage = () => {
                         </div>
 
                         {/* React */}
-                        <div className="">
+                        <div className="pl-6 pt-4">
                             <ul style={{ listStyleType: "circle" }}>
                                 <li>
                                     <h4 className="font-bold underline decoration-[#34b7a7] decoration-3">React Development</h4>
